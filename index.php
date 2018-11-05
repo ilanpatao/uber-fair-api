@@ -48,7 +48,10 @@ echo "<pre>";
 echo "<h1>Uber Estimate API Pull Sample</h1>";
 echo "<p>Written by <a href='mailto:ilan@dangerstudio.com'>Ilan Patao</a> on 11/05/2018</p>";
 
-echo "<p>This sample uses the Uber fate estimator API in conjunction with Place ID's from Google; the sample here uses the Place ID of the pick up and drop-off destinations obtained from the Google Place ID finder (or one of my tools <a href='https://gmb.reviewsmaker.com'>Reviewsmaker</a> to decode real-time fare estimates for all Uber units available. This sample uses the Place ID's of The Empire State Building as a pick-up location and Times Square Center in NYC.</p>";
+echo "<p>This sample uses the Uber fare estimator API in conjunction with Place ID's from Google;<br>
+The sample here uses the Place ID of the pick up and drop-off destinations obtained from the Google Place ID finder (or one of my tools <a href='https://gmb.reviewsmaker.com'>Reviewsmaker</a><br>
+to decode real-time fare estimates for all Uber units available.<br>
+This sample uses the Place ID's of The Empire State Building as a pick-up location and Times Square Center in NYC.</p>";
 
 echo "<h1>Raw JSON Feed</h1>";
 echo "<textarea>".$response."</textarea>";
